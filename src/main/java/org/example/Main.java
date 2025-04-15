@@ -33,7 +33,11 @@ public class Main {
 //        String s = "A man, a plan, a canal: Panama";
 //        System.out.println(ValidPalindrome.isPalindrome(s));
 
-        String s = "abc", t = "ahbgdc";
-        System.out.println( IsSubsequence.isSubsequence(s,t));
+//        String s = "abc", t = "ahbgdc";
+//        System.out.println( IsSubsequence.isSubsequence(s,t));
+
+        String s = "badc", t="baba";
+        boolean result = IsomorphicStrings.isIsomorphic(s,t);
+        System.out.println(result);
     }
 }

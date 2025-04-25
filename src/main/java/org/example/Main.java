@@ -1,5 +1,7 @@
 package org.example;
 
+import java.util.Arrays;
+
 public class Main {
     public static void main(String[] args) {
 //        int []nums1 = {1,2,3,0,0,0};
@@ -36,8 +38,12 @@ public class Main {
 //        String s = "abc", t = "ahbgdc";
 //        System.out.println( IsSubsequence.isSubsequence(s,t));
 
-        String s = "badc", t="baba";
-        boolean result = IsomorphicStrings.isIsomorphic(s,t);
-        System.out.println(result);
+//        String s = "badc", t="baba";
+//        boolean result = IsomorphicStrings.isIsomorphic(s,t);
+//        System.out.println(result);
+
+//        String path = "///awb/awd///awd/..///abds/";
+        String path = "/../";
+        System.out.println(SimplifyPath.simplifyPath(path));
     }
 }

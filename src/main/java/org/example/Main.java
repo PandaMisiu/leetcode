@@ -1,5 +1,9 @@
 package org.example;
 
+import org.example.BinaryTree.SumRootToLeafNumbers;
+import org.example.BinaryTree.TreeNode;
+import org.example.arrays.TrappingRainWater;
+
 import java.util.Arrays;
 
 public class Main {
@@ -43,7 +47,20 @@ public class Main {
 //        System.out.println(result);
 
 //        String path = "///awb/awd///awd/..///abds/";
-        String path = "/../";
-        System.out.println(SimplifyPath.simplifyPath(path));
+//        String path = "/../";
+//        System.out.println(SimplifyPath.simplifyPath(path));
+
+//        TreeNode root = new TreeNode(1, new TreeNode(2), new TreeNode(3));
+//        SumRootToLeafNumbers a = new SumRootToLeafNumbers();
+//        int res = a.sumNumbers(root);
+//        System.out.println(res);
+
+
+//        int [] height = {0,1,0,2,1,0,1,3,2,1,2,1};
+//        TrappingRainWater trappingRainWater = new TrappingRainWater();
+//        int res = trappingRainWater.trap(height);
+//        System.out.println(res);
+
+        System.out.println(FactorialRecurse.factorial(5));
     }
 }
